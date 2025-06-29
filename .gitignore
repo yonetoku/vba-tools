@@ -1,0 +1,25 @@
+# 一時ファイルやバックアップ
+*.log
+*.tmp
+*.bak
+*.ldb
+*.accdb~
+~$*
+
+# WindowsやOfficeが作る不要ファイル
+Thumbs.db
+.DS_Store
+desktop.ini
+
+# Visual Studioの個人設定（将来VB.NETも管理する場合）
+*.suo
+*.user
+*.vbproj.user
+*.vspscc
+*.vssscc
+
+# Git無視ディレクトリ（必要に応じて）
+__pycache__/
+.vscode/
+bin/
+obj/
